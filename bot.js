@@ -32,7 +32,12 @@ client.on("messageCreate", async (message) => {
 		}
 		
 		if (!url) {
-			message.channel.reply("Nenhuma música encontrada!");
+			message.channel.send("Nenhuma música encontrada!");
+			return;
+		}
+		
+		if (!message.member.voice.channel) {
+			message.channel.send("Você precisa entrar em um canal de voz!");
 			return;
 		}
 		

@@ -1,11 +1,11 @@
 # Simple-Discord-Music-Bot
 
-### How it Works
-```!play [query | url]``` Plays a new song on loop  
-```!stop``` Stops playing the song  
+### Comandos
+```!play [query | url]``` Toca uma nova música em loop  
+```!stop``` Para de tocar música  
 
 ### Quick Start
-Create your bot and get your ```DiscordToken``` at https://discord.com/developers/applications  
+Crie seu bot e pegue seu ```DiscordToken``` aqui: https://discord.com/developers/applications  
 
 ```bash
 npm init -y
